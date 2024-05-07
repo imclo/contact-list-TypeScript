@@ -1,3 +1,11 @@
+# Contact List React + TypeScript
+
+Cet exercice est statique, il s'agit juste de manipulation de state.
+
+Vous devez coder un petit générateur de contact. Chaque nouveau contact aura obligatoirement un nom ainsi qu'éventuellement, un mail.
+
+À vous ensuite de créer les différents composants pour construire l'application.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -17,12 +25,12 @@ If you are developing a production application, we recommend updating the config
 export default {
   // other rules...
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    ecmaVersion: "latest",
+    sourceType: "module",
+    project: ["./tsconfig.json", "./tsconfig.node.json"],
     tsconfigRootDir: __dirname,
   },
-}
+};
 ```
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
